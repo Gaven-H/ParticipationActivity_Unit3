@@ -4,3 +4,7 @@ dragon_title = ["The Fierce", "The Voiceless One", "Champion of The Red", "Longt
 
 while dragon_first_name and dragon_title:
     print (f"{dragon_first_name[0]}, {dragon_title[0]}")
+    
+    dragon_first_name.pop(0)
+
+    dragon_title.pop(0)
